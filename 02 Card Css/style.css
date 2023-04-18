@@ -1,0 +1,40 @@
+.card{
+    background-color: white;
+    border-style: solid;
+    border-color: brown;
+
+}
+
+.card .card-body{
+    margin-left: 0.2cm;
+}
+
+.link{
+    margin: 0.5cm 0cm;
+}
+
+
+
+h1{
+    color: brown;
+}
+
+p{
+    margin-left: 0.2cm;
+}
+
+hr{
+    border-style: double;
+    border-color: brown;
+}
+
+
+
+
+a{
+    color: rgb(240, 113, 10);
+    margin-left: 0.2cm;
+    
+}
+
+
