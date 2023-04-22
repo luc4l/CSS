@@ -28,7 +28,10 @@ hr{
     border-color: brown;
 }
 
+a:hover{ 
+    background-color: blue;
 
+}
 
 
 a{
