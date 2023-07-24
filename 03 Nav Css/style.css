@@ -70,7 +70,7 @@ select{
 }
 
 .hamburger-menu{
-  display: none;
+  display: none;  /* nasconde alla pagina il contenuto di questa classe/id */
   flex-direction: row;
   margin-bottom: 5px;
 
@@ -111,6 +111,6 @@ select{
 
   
   .hamburger-menu {
-      display: contents;
-      color: white;
+      display: contents; /*in @media appare questa classe */
+      color:red;
   }

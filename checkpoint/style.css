@@ -1,0 +1,41 @@
+:root {
+    --body-bg: #F5F5FB;
+    --side-bg: #FFFFFF;
+    --box-bg: #C4C4C4;
+    --box-gap: 20px;
+    --side-l-w: 200px;
+    --side-r-w: 250px;
+  }
+
+  body {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+
+    
+  }
+
+  .side-left {
+    width: var(--side-l-w);
+    background-color: var(--side-bg);
+    height: 100%;
+
+    
+  }
+
+  .side-right {
+    width: var(--side-r-w);
+    background-color: var(--side-bg);
+    height: 100%;
+
+  }
+
+  .main {
+    background-color: var(--body-bg);
+    height: 100%;
+    flex-grow: 1;
+  }
